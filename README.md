@@ -1,2 +1,2 @@
 # RainyNight
- Joo Study
+ Joo's study
