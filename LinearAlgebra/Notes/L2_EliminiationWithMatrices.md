@@ -1,5 +1,5 @@
 #Lecture 2. Elimination with matrices
-* N linear equations, n unknown
+* N linear equations, N unknown variables (方阵）
 * Row picture
 * Column picture
 * Matrix form  
