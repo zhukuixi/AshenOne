@@ -1,4 +1,4 @@
-#Lecture 1. The geomertry of linear equations
+# Lecture 1. The geomertry of linear equations
 * N linear equations, N unknown variables (方阵）
 * Row picture
 * Column picture
