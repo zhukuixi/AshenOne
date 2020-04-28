@@ -1,4 +1,4 @@
-#Lecture 2. Elimination with matrices
+# Lecture 2. Elimination with matrices
 * The basic operation of elimination of matrices
 	> * pivot为零的pivot行试图与下面非零pivot行换行
 	> * pivot所在行乘以常数与pivot下方的行相消  
