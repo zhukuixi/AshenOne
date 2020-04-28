@@ -1,22 +1,18 @@
 #Lecture 2. Elimination with matrices
-* N linear equations, N unknown variables (方阵）
-* Row picture
-* Column picture
-* Matrix form  
- 
-## Row and Column picture
-**Basic Example**  
-展示了二维空间里的Row picture and Column picture  
-![Page1](https://github.com/zhukuixi/RainyNight/blob/master/LinearAlgebra/Images/L1_1.jpg)  
-**Advanced Example**  
-展示了三维空间里的Row picture and Column picture    
-![Page2](https://github.com/zhukuixi/RainyNight/blob/master/LinearAlgebra/Images/L1_2.jpg)      
+* The basic operation of elimination of matrices
+	> * pivot为零的pivot行试图与下面非零pivot行换行
+	> * pivot所在行乘以常数与pivot下方的行相消
+![Page1](https://github.com/zhukuixi/RainyNight/blob/master/LinearAlgebra/Images/L2_1.jpg)  
 
-此处从**Column Picture**的三维例子引发了一个重要的概念，**矩阵的可逆性**（non-singular=invertible)。  
-可逆与否这个概念是对于**方阵**而言的，深入学习后，广义逆可以应用于非方阵。  
+## 情景Ax=b， A为方阵
+在A矩阵elimination后，如果所有pivot都为非零，则是**可逆**的。  
+> * Ax=b有唯一解。
+> *  从U的元素分布形状易知，对变量从下往上逐一带入求得唯一解
 
-> 对于一个方阵而言，如果它的列能通过任意组合抵达空间的每一个点，则它是可逆的。
-如果方阵里的其中一列能被其他列表示，说明这一列是依赖于其他列，不共享新的信息的。此时该方阵是singular matrix,也即不可逆，无法填满整个空间。
+如果有pivot为零,则矩阵是**不可逆**的。
+> * Ax=b有无穷解或者无解。
+> *  从U的元素分布形状易知,此时U存在全零行。如果此时b和全零行对应得元素为非零，则无解。否则，则有无穷解。
+
 
 
 
