@@ -1,4 +1,4 @@
-# Lecture 4. Factorization into A = LU
+# Lecture 4. Facotrization into A = LU
 * Inverse of AB, transpose(A)
 * Product of elimination matrices (消元矩阵的乘积）
 * A = LU (no row exchanges)
