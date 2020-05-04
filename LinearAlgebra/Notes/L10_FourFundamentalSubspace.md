@@ -9,5 +9,5 @@
 ![Page0](https://github.com/zhukuixi/RainyNight/blob/master/LinearAlgebra/Images/L10_1.jpg)
 
 
-为下一讲做准备的概念
-![Page0](https://github.com/zhukuixi/RainyNight/blob/master/LinearAlgebra/Images/L10_2.jpg)  
+为下一讲做准备的概念  
+![Page0](https://github.com/zhukuixi/RainyNight/blob/master/LinearAlgebra/Images/L10_2.jpg) 
