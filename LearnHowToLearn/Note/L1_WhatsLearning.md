@@ -5,8 +5,8 @@
 * Week4: Renaissance learning and Unlocking Your Potential
 
 ## Week 1: What is learning?
-1. Focus thinking v.s Diffuse thinking
-2. Procrastination, Memory, and Sleep
+1. [Focus thinking v.s Diffuse thinking](#FocusthinkingvsDiffusethinking)
+2. [Procrastination, Memory, and Sleep](#WhatisLearning)
 
 ### Focus thinking v.s Diffuse thinking
 
@@ -33,4 +33,7 @@ Dali和Edison的例子：他们先让自己放松进入diffuse thinking模式，
 # 总结
 1.**比喻**是个很好的学习技巧（弹子珠模型比喻）  
 2.**Focus and diffuse mode两种模式转换是学习的奥义**  
-3.学习新的困难的东西是需要花时间的，**每天都做，坚持下来**，逐渐建立neuro-scaffold.  
+3.学习新的困难的东西是需要花时间的，**每天都做，坚持下来**，逐渐建立neuro-scaffold.
+
+
+### What is Learning?  
