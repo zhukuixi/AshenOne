@@ -5,7 +5,7 @@
 * Week4: Renaissance learning and Unlocking Your Potential
 
 ## Week 1: What is learning?
-1. [Focus thinking v.s Diffuse thinking](#FocusthinkingvsDiffusethinking)
+1. [Focus thinking v.s Diffuse thinking](#Focus_thinking_v_s_Diffuse_thinking)
 2. [Procrastination, Memory, and Sleep](#WhatisLearning)
 
 ### Focus thinking v.s Diffuse thinking
