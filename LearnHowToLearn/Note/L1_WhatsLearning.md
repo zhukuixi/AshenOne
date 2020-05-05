@@ -23,7 +23,7 @@
 
 ![](https://github.com/zhukuixi/RainyNight/blob/master/LearnHowToLearn/Image/L1_2.png)
 
-Dali和Edison的例子：他们先让自己放松进入diffuse thinking模式，然后再快睡着（手中的一个物体掉到地上砸出声音让自己惊醒）的时候，收集自己刚才diffuse模式下思维漫游的线索，转换进入focus mode  （focus/diffuse两种思维模式的来回转换是**学习的奥义**）
+Dali和Edison的例子：他们先让自己放松进入diffuse thinking模式，在快睡着（手中握着的一个物体掉到地上砸出声音让自己惊醒）的时候回过神来，收集自己刚才diffuse模式下思维漫游的线索，转换进入focus mode（focus/diffuse两种思维模式的来回转换是**学习的奥义**）
 
 ![](https://github.com/zhukuixi/RainyNight/blob/master/LearnHowToLearn/Image/L1_3.jpg)  
 冰冻三尺非一日之寒，肌肉不是一天练出来的。这里提出一个有意思的词，**neuro-scaffold**！每天做一些，坚持下来，慢慢就建立起neuro-scaffold，形成新的思维pattern (新知识)
