@@ -36,14 +36,13 @@ Dali和Edison的例子：他们先让自己放松进入diffuse thinking模式，
 ![](https://github.com/zhukuixi/RainyNight/blob/master/LearnHowToLearn/Image/L1_3.jpg)  
 冰冻三尺非一日之寒，肌肉不是一天练出来的。这里提出一个有意思的词，**neuro-scaffold**！**每天做一些**，坚持下来，慢慢就建立起neuro-scaffold，形成新的思维pattern (新知识)
 
-***
 
-# 总结
+### 总结
 1.**比喻**是个很好的学习技巧（弹子珠模型比喻）  
 2.**Focus and diffuse mode两种模式转换是学习的奥义**  
 3.学习新的困难的东西是需要花时间的，**每天都做，坚持下来**，逐渐建立neuro-scaffold.
 
-
+***
 
 
 
@@ -78,4 +77,13 @@ PS:科学研究，在你强迫自己**开始做**事情A以后，那个以为的
 >** 长期记忆**是稳定且储存空间非常的大。**把思绪从短期记忆转移到长期记忆的仓库，需要重复****，也就是下图的spaced repetition**。
 在**一定跨度的时间内重复**非常有助于知识往长期记忆仓库的转移。
 
-![](https://github.com/zhukuixi/RainyNight/blob/master/LearnHowToLearn/Image/L1_9.jpg)  
+![](https://github.com/zhukuixi/RainyNight/blob/master/LearnHowToLearn/Image/L1_9.jpg)
+
+#### The Importance of Sleep in Learning  
+* Allows the brain to **clean** metabolic toxins. (脑细胞缩小，方便flow流进来清理醒着的时候大脑自然代谢的有毒物质）  
+![](https://github.com/zhukuixi/RainyNight/blob/master/LearnHowToLearn/Image/L1_10.jpg)  
+* Allows your brain to **strengthen** important parts of memories even as it erases less important memories 
+* Allows your brain a chance to **rehearse** difficult material--going over and over the tougher aspects of what you are trying to learn
+![](https://github.com/zhukuixi/RainyNight/blob/master/LearnHowToLearn/Image/L1_11.jpg)  
+* 前叶沉睡了，长期记忆仓库里的内容能互相**串联**起来，形成一个个牢固的且更易掌握的知识记忆**模块**(chunk)。此时大脑是用Diffuse thinking来串联你focus mode留下的知识点的。（Here, you must plant the seed for diffuse mode by first doing focus mode work.)
+
