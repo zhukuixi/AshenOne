@@ -21,7 +21,7 @@
 
 ### Using the Focused and Diffuse Modes--Or, a Little Dali will do You
 
-![](https://github.com/zhukuixi/RainyNight/blob/master/LearnHowToLearn/Image/L1_2.jpg)
+![](https://github.com/zhukuixi/RainyNight/blob/master/LearnHowToLearn/Image/L1_2.png)
 
 Dali和Edison的例子：他们先让自己放松进入diffuse thinking模式，然后再快睡着（手中的一个物体掉到地上砸出声音让自己惊醒）的时候，收集自己刚才diffuse模式下思维漫游的线索，转换进入focus mode  （focus/diffuse两种思维模式的来回转换是**学习的奥义**）
 
