@@ -6,7 +6,7 @@
 
 
 ***
-##为下一讲Ax=b上的Porjection做出铺垫 
+## 为下一讲Ax=b上的Porjection做出铺垫 
 LC10讲了如何获取4个fundamental subspace的basis,其中有提到获取row space的basis.矩阵A经过若干row operations，perserve了row space。其实，这些代表row operation的矩阵乘积，也即左乘的矩阵E，是不可逆的，因为E不可逆，所以才有 A的row space = E\*A的row space。  
 如果E是一个可逆的矩阵，则破坏了row space。(need check!)【思：反之对于column space, Col(A)=Col(A*E)吗，如果E是不可逆的】
 
