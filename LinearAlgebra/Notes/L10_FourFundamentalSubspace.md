@@ -2,10 +2,11 @@
 * **Row space**
 * **Null space**
 * **Column space**
-* **left null space** (nullspace of transpose(A))
+* **Left null space** (nullspace of transpose(A))
 
 知晓如何获得四个空间的basis。
 只要知道如何获得row space（此处讲了）和nullspace的basis（之前L7_Ax=0讲了)即可！因为只要将矩阵转置，即可用同样方法获得column space与left null space的basis。  
+R为rref形式的矩阵.
 ![Page0](https://github.com/zhukuixi/RainyNight/blob/master/LinearAlgebra/Images/L10_1.jpg)
 
 
