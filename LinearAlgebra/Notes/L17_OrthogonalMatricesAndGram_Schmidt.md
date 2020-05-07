@@ -10,7 +10,7 @@
 ![Page0](https://github.com/zhukuixi/RainyNight/blob/master/LinearAlgebra/Images/L17_2.jpg)  
 
 # Gram-Schimidt
-* 后面的vector依次减去在前面各vector上的投影
+* 后面的vector依次减去在前面各互相垂直vector上的投影
 
 *** 
 
