@@ -3,7 +3,7 @@
 * Vector spaces and subspaces
 
 
-## 几个关于小性质
+## 几个小性质
 
 * 关于Permutation Matrix (P), 有 inverse(P) = transpose(P)  
 * Permutation Matrix实际上就是被打乱行顺序的单位矩阵   
