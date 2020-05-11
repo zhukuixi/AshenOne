@@ -36,7 +36,7 @@ Piece of information tied together a form a conceptual chunk.是由focus thinkin
 
 ### 回忆
 回忆能帮助chunk的形成，相关神经元的生长！
-这样一来一个概念就不会是一堆相关碎片混乱地彼此连接打结，占据了你4各working memory slot。通过回忆，让这个概念形成一个compact chunk，里面碎片连接十分整洁顺滑紧致，因此也只占据你一个working memory slot。
+这样一来一个概念就不会是一堆相关碎片混乱地彼此连接打结，占据了你4g个working memory slot。通过回忆，让这个概念形成一个compact chunk，里面碎片连接十分整洁顺滑紧致，因此也只占据你一个working memory slot。
 
 
 ### 以为自己懂了的错觉
@@ -79,3 +79,5 @@ Piece of information tied together a form a conceptual chunk.是由focus thinkin
 > 学习一门知识，不是掌握里头的每个Chunk即可，还要求掌握各个chunk不同的适用范围和时机。  
 > Interleaving交叉练习就是在涉及不同chunk的题目中练习（比如EPI不是一个一个模块地刷题，而是随机抽取若干题来刷）。除了知道HOW to use,还要知道WHEN to use。    
 > Interleaving也带来了科学创新，学科交叉，这是本世纪科学创新的主要来源。
+
+## 
