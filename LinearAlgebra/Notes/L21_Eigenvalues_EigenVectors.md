@@ -3,7 +3,7 @@
 * Det(A-lambda*I) = 0
 * A对角线元素加和 = 特征根的加和！
 * Det(A) = 特征根的乘积！
-
+* 三角矩阵的eigenvalue直接写在对角线上
 
 ![Page0](https://github.com/zhukuixi/RainyNight/blob/master/LinearAlgebra/Images/LC21_1.jpg)  
   
