@@ -16,6 +16,6 @@
 
 ## 新的笔记和补充总结
 
-![Page0](https://github.com/zhukuixi/RainyNight/blob/master/LinearAlgebra/Images/L23_supple1.jpg)
+![Page0](https://github.com/zhukuixi/RainyNight/blob/master/LinearAlgebra/Images/L23_supple1.png)
 
 ![Page0](https://github.com/zhukuixi/RainyNight/blob/master/LinearAlgebra/Images/L23_supple2.jpg)
