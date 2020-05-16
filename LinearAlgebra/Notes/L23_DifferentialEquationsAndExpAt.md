@@ -10,3 +10,12 @@
 * steady state: one lambda=0 ,all the other lambda<0
 * blow up: any lambda>0
 
+![Page0](https://github.com/zhukuixi/RainyNight/blob/master/LinearAlgebra/Images/L23_2.jpg)
+
+![Page0](https://github.com/zhukuixi/RainyNight/blob/master/LinearAlgebra/Images/L23_3.jpg)
+
+## 新的笔记和补充总结
+
+![Page0](https://github.com/zhukuixi/RainyNight/blob/master/LinearAlgebra/Images/L23_supple1.jpg)
+
+![Page0](https://github.com/zhukuixi/RainyNight/blob/master/LinearAlgebra/Images/L23_supple2.jpg)
