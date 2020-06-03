@@ -1,2 +1,2 @@
-Ashen one  
-![](https://github.com/zhukuixi/RainyNight/blob/master/LinearAlgebra/Images/ds.jpg)
+Endure and Fight!
+![](https://github.com/zhukuixi/RainyNight/blob/master/ElementOfProgrammingInPython/img/175802.jpg)
