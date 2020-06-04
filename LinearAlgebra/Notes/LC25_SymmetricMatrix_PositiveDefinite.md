@@ -6,7 +6,7 @@
     2.All eigenvalue > 0
     3.All sub-determinants > 0
 
-##  Markov Matrices
+
 ![Page0](https://github.com/zhukuixi/AshenOne/blob/master/LinearAlgebra/Images/LC25_1.jpg)
 
 ![Page0](https://github.com/zhukuixi/AshenOne/blob/master/LinearAlgebra/Images/LC25_2.jpg)
