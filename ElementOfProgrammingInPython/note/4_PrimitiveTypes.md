@@ -33,22 +33,35 @@
 2.Use bit mask with XOR to swap bits
  
 ### 4.3 reverse_bits.py
-1. Cache ide
+Cache ide
 
 ### 4.4 close_int_same_weight.py
-1. 01 10. 
+01 10. 
 
 ### 4.5 primitive_multiply.py
-1. def add(a,b): 神了！
-	   return a if b==0 else add(a^b,(a&b)<<1)
+#
+	def add(a,b): 神了！  
+	 return a if b==0 else add(a^b,(a&b)<<1)
 
 ### 4.6 primitive_divide.py
-1. 实现x//y 从高往下降的power使算法从0(N^2)提升到0(N)
+实现x//y 从高往下降的y^power使算法从0(N^2)提升到0(N)
 
-### 4.7 power_x_y.py
+### 4.7 power\_x_y.py
+对y进行分解:  
+比如x^21,y=21,则y=16+4+1. x^1,x^4,x^16之间可以联系起来**后面的可以利用前面**，所以算法复杂度为0(N),N为index of Y's MSB.
 
 
+### 4.8 reverse_digits.py
+### 4.9 is_palindrome_number.py
+判断几位数N **math.floor(math.log2(X))+1**;对十进制，把log2换成log(X,10)即可  
+掐头去尾
+
+### 4.10 uniform_random.py
+用0/1 RNG去产生给定范围内均匀分布的随机数
+
+### 4.11 rectangle_intersection.py
+考虑反面情况
+滑块思想
 
     
 
-   
