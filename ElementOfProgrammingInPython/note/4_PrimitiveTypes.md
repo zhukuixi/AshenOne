@@ -22,6 +22,7 @@
 	random.random() 随机产生[0,1)内一个数
 	random.shuffle(A) 对sequence A进行随机shuffle
     random.choice(A)  从sequence A中随机抽取一个元素
+    random.choices(A,k=10) 从sequence A中随机抽取10次元素，有放回
 
 ### 4.1 parity.py
 当需要对大量数字bit operation进行处理时，可以有2种思想提升效率：(打基础里提到的**commutativity and associativity**)  
