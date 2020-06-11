@@ -12,4 +12,6 @@
 ![Page0](https://github.com/zhukuixi/AshenOne/blob/master/LinearAlgebra/Images/LC30_2.jpg)
 
 ## 如何构筑Linear Transformation Matrix A.
+* A的第i列，是对第i个old basis的线性转换的结果由new basis线性表示的系数。也即T(Vi)在新基W线性表示的系数.(Wj的系数对应Aji)
+
 ![Page0](https://github.com/zhukuixi/AshenOne/blob/master/LinearAlgebra/Images/LC30_3.jpg)
