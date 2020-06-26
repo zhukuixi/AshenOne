@@ -11,11 +11,14 @@
 
 ## Pooling Effect Sizes
 * Fixed-Effects-Model  
-	- The fixed-effects-model assumes that all studies along with their effect sizes stem from a single homogeneous population. So there is a fixed-true effect, all the effects from different study is just a different deviation from it.  
+	- The fixed-effects-model assumes that all studies along with their effect sizes stem from a single homogeneous population. So there is a fixed-true effect, all the effects from different study is just a different deviation(due to sampling error) from it.  
 	![4.1](https://github.com/zhukuixi/AshenOne/blob/master/MetaAnalysisInR/img/4.1.png)  
     ![4.2](https://github.com/zhukuixi/AshenOne/blob/master/MetaAnalysisInR/img/4.2.png)
 
 * Random-Effects-Model
--   
-Raw effect size data:   meta::metacont()
-Pre-calculated effect size data:  meta::metagen
+	- There is no fixed true effect. True effect itself got a distribution. This extra
+	- This extra source of variance introduced by the fact that the studies do not stem from one single population,     but are drawn from a “universe” of populations.
+
+# 
+	meta::metacont() # Raw effect size data
+	meta::metagen()  # Pre-calculated effect size data
