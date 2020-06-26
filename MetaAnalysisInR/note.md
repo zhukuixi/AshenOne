@@ -11,8 +11,9 @@
 
 ## Pooling Effect Sizes
 * Fixed-Effects-Model  
-	- The fixed-effects-model assumes that all studies along with their effect sizes stem from a single homogeneous population
-	[4.1]()
+	- The fixed-effects-model assumes that all studies along with their effect sizes stem from a single homogeneous population. So there is a fixed-true effect, all the effects from different study is just a different deviation from it.  
+	![4.1](https://github.com/zhukuixi/AshenOne/blob/master/MetaAnalysisInR/img/4.1.png)  
+    ![4.2](https://github.com/zhukuixi/AshenOne/blob/master/MetaAnalysisInR/img/4.2.png)
 
 * Random-Effects-Model
 -   
