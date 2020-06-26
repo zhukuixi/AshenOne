@@ -101,4 +101,16 @@ joo Close Boundary Explorer Style!
 	        quickSort(arr, pi+1, high) 
 	  
 
-### 5.0
+### 5.2 int_as_array_increment.py 
+用array来模拟加法
+
+### 5.3 int_as_array_multiply.py 
+用array来模拟乘法[**有难点**！]  
+#
+* 结果长度和输入2数组长度的关系 M<=X+Y，所以总长度设置为X+Y,再去除leading zero.
+* 结果填写位置ind_fill和输入ind_i,ind_j的关系 （ind_fill = ind_i+ind_j+1）  
+#
+	ans[i+j+1] += num1[i]  * num2[j] 
+	ans[i+j] += ans[i+j+1] // 10
+    ans[i+j+1] %= 10
+
