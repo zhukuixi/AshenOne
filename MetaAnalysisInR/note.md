@@ -121,4 +121,14 @@ If you want to do Meta-Regression in **fixed-effects-model way**:simply delete Î
 ![8.2](https://github.com/zhukuixi/AshenOne/blob/master/MetaAnalysisInR/img/8.2.png)
 
 ### Calculating meta-regressions in R
-metareg(m.hksj,Control)
+	metareg(m.hksj,Control) ## Regression on a categorical variable "Control"(subgroup)
+	metareg(m.pubyear,pub_year) ## Regression on publication year, which is a continuous variable
+
+### Plotting Regressions
+	bubble(output.metareg,
+       xlab = "Publication Year",
+       col.line = "blue",
+       studlab = TRUE)
+![8.3](https://github.com/zhukuixi/AshenOne/blob/master/MetaAnalysisInR/img/8.3.png)
+
+### Multiple Meta-Regression
