@@ -79,3 +79,24 @@
 ## Subgroup Analysis
 Step 1. Pooling the effect of each subgroup  
 Step 2. Comparing the effects of the subgroups
+
+
+### Subgroup Analyses using the Mixed-Effects-Model  [It cares about the difference between exact subgroups]
+* Using Random-effects to do the pooling size  
+* Using Fix effect to do the subgroup comparison  
+* Here it assumes that the difference between subgroup is fixed! For example, male/female.
+
+#
+	sgame = subgroup.analysis.mixed.effects(x = m.hksj,subgroups = madata$Control)
+	forest(sgame)
+![7.1](https://github.com/zhukuixi/AshenOne/blob/master/MetaAnalysisInR/img/7.1.png)
+  
+### Subgroup Analyses using the Random-Effects-Model  [It cares about the effect of subgroups]
+* Using Random-effects to do the pooling size AND subgroup comparison    
+* The random-effects-model for between-subgroup-effects is appropriate when the subgroups we use were randomly sampled from a population of subgroups.
+#
+	region.subgroup<-update.meta(m.hksj, 
+                             byvar=region, 
+                             comb.random = TRUE, 
+                             comb.fixed = FALSE)
+
