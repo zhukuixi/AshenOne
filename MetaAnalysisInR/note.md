@@ -100,3 +100,25 @@ Step 2. Comparing the effects of the subgroups
                              comb.random = TRUE, 
                              comb.fixed = FALSE)
 
+## Meta-Regression
+* Do regression on study level  
+Meta-Regression does not differ much from a subgroup analysis. In fact, subgroup analyses with more than two groups are nothing more than a meta-regression with categorical predictors. However, meta-regression does also allow us to use continuous data as predictors and check whether these variables are associated with effect size differences.  
+* Sample size  
+For meta-regression, Borenstein and colleages (Borenstein et al. 2011) recommend that each covariate should at least contain ten studies, although this should not be seen as an iron-clad rule.
+
+
+### The formula of Meta-Regression
+![8](https://github.com/zhukuixi/AshenOne/blob/master/MetaAnalysisInR/img/8.png)  
+Mathematically, this model is identical to the **mixed-effects-model** we described in how subgroup analyses work.  
+![8.1](https://github.com/zhukuixi/AshenOne/blob/master/MetaAnalysisInR/img/8.1.png)
+
+If you want to do Meta-Regression in **mix-effects-model way**: use the formula above.  
+If you want to do Meta-Regression in **fixed-effects-model way**:simply delete ζk   
+
+### Assessing the fit of a regression model  
+* statistical significance of single predictor
+* goodness of fit of entire model   
+![8.2](https://github.com/zhukuixi/AshenOne/blob/master/MetaAnalysisInR/img/8.2.png)
+
+### Calculating meta-regressions in R
+metareg(m.hksj,Control)
