@@ -74,3 +74,8 @@
 	plot(dat.gosh, alpha= 0.1, col = "blue")
 	gosh.diagnostics(dat.gosh)
 ![6.4](https://github.com/zhukuixi/AshenOne/blob/master/MetaAnalysisInR/img/6.4.png)  
+
+
+## Subgroup Analysis
+Step 1. Pooling the effect of each subgroup  
+Step 2. Comparing the effects of the subgroups
