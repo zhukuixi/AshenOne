@@ -52,5 +52,25 @@
 	print(m.hksj)  ## Just print the object and you can see all 3 heterogeneity metrics. Also pay attention to the prediction interval.
 
 
-### Detecting outliers & influential cases
-	find.outliers(m.hksj) ## It mainly compare the 95%CI of pooling effect size with the 95%CI of effect size of each study. 
+### Detecting outliers & influential cases (Using leave one out method)
+	# Find Outliers
+	find.outliers(m.hksj) ## It mainly compare the 95%CI of pooling effect size with the 95%CI of effect size of each study
+	# Find Influential cases
+	inf.analysis <- InfluenceAnalysis(x = m.hksj)  
+	summary(inf.analysis)
+	plot(inf.analysis, "influence")
+	plot(inf.analysis, "baujat")
+	plot(inf.analysis, "es")
+ 
+### GOSH Plot Analysis(Considering all studies combination! For K study, consider 2^k-1 combination)
+* Once the model combinations are calculated, we can plot them, displaying the pooled effect size on the x-axis and the between-study heterogeneity at the y-axis.  
+#  
+	
+	m.rma <- rma(yi = m.hksj$TE, 
+             sei = m.hksj$seTE,
+             method = m.hksj$method.tau,
+             test = "knha")
+	dat.gosh <- gosh(m.rma)
+	plot(dat.gosh, alpha= 0.1, col = "blue")
+	gosh.diagnostics(dat.gosh)
+![6.4](https://github.com/zhukuixi/AshenOne/blob/master/MetaAnalysisInR/img/6.4.png)  
