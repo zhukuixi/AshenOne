@@ -132,3 +132,7 @@ If you want to do Meta-Regression in **fixed-effects-model way**:simply delete Î
 ![8.3](https://github.com/zhukuixi/AshenOne/blob/master/MetaAnalysisInR/img/8.3.png)
 
 ### Multiple Meta-Regression
+* The idea behind  
+  [Controlling the confounding variables](https://stats.stackexchange.com/questions/3944/explain-model-adjustment-in-plain-english)  and then properly explore the relationship! 
+* Interactions among predictors  
+![8.4](https://github.com/zhukuixi/AshenOne/blob/master/MetaAnalysisInR/img/8.4.png)
