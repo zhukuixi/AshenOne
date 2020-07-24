@@ -21,7 +21,7 @@
 	A[::-1] reverses list
     A[i:j:k] 注意负数,比如-3是代表倒数第三个.i为起点index,j为终点index(不包含）,k为index变化的步数，默认为1.
 
-* List comprehension [以及reduce,map,filter
+* List comprehension [以及reduce,map,filter]
 #
 	# Example of reduce
 	>A=[1,2,3,4]
