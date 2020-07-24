@@ -8,7 +8,7 @@
 * Linear Model
 * Tree based  
 [Random Forest](https://www.datasciencecentral.com/profiles/blogs/random-forests-explained-intuitively)
-  - 缺点1:prediction无法出圈，因此对small data不好。
+  - 缺点1:prediction无法出已有数据范围，因此对small data不好。
   - 缺点2：x~y之间解释性不好。
 * kNN
 * Neural Networks
@@ -16,4 +16,6 @@
 
 
 ## Pandas Refresh
+[Pandas大全](https://pandas.pydata.org/docs/user_guide/io.html)
+
 
