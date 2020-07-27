@@ -13,19 +13,19 @@
 
 ## 线性代数
 
-![](https://github.com/zhukuixi/AshenOne/blob/master/PaddleDeepLearning/image/L2_7.png)  
-![](https://github.com/zhukuixi/AshenOne/blob/master/PaddleDeepLearning/image/L2_8.png)  
-![](https://github.com/zhukuixi/AshenOne/blob/master/PaddleDeepLearning/image/L2_9.png)  
-![](https://github.com/zhukuixi/AshenOne/blob/master/PaddleDeepLearning/image/L2_10.png)    
+![](https://github.com/zhukuixi/AshenOne/blob/master/PaddleDeepLearning/image/L2_7.png)    
+![](https://github.com/zhukuixi/AshenOne/blob/master/PaddleDeepLearning/image/L2_8.png)    
+![](https://github.com/zhukuixi/AshenOne/blob/master/PaddleDeepLearning/image/L2_9.png)    
+![](https://github.com/zhukuixi/AshenOne/blob/master/PaddleDeepLearning/image/L2_10.png)      
 ![](https://github.com/zhukuixi/AshenOne/blob/master/PaddleDeepLearning/image/L2_11.png)  
 ![](https://github.com/zhukuixi/AshenOne/blob/master/PaddleDeepLearning/image/L2_12.png)  
 ![](https://github.com/zhukuixi/AshenOne/blob/master/PaddleDeepLearning/image/L2_13.png)  
 ![](https://github.com/zhukuixi/AshenOne/blob/master/PaddleDeepLearning/image/L2_14.png)                      
 
-## 概率论和数理统计
-![](https://github.com/zhukuixi/AshenOne/blob/master/PaddleDeepLearning/image/L2_15.png) 
-![](https://github.com/zhukuixi/AshenOne/blob/master/PaddleDeepLearning/image/L2_16.png)  
-![](https://github.com/zhukuixi/AshenOne/blob/master/PaddleDeepLearning/image/L2_17.png)  
+## 概率论和数理统计  
+![](https://github.com/zhukuixi/AshenOne/blob/master/PaddleDeepLearning/image/L2_15.png)     
+![](https://github.com/zhukuixi/AshenOne/blob/master/PaddleDeepLearning/image/L2_16.png)    
+![](https://github.com/zhukuixi/AshenOne/blob/master/PaddleDeepLearning/image/L2_17.png)    
 ![](https://github.com/zhukuixi/AshenOne/blob/master/PaddleDeepLearning/image/L2_18.png)  
-![](https://github.com/zhukuixi/AshenOne/blob/master/PaddleDeepLearning/image/L2_19.png)         
+![](https://github.com/zhukuixi/AshenOne/blob/master/PaddleDeepLearning/image/L2_19.png)      
  
