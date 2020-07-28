@@ -22,7 +22,7 @@
 ![](https://github.com/zhukuixi/AshenOne/blob/master/PaddleDeepLearning/image/L2_4.png)  
 ![](https://github.com/zhukuixi/AshenOne/blob/master/PaddleDeepLearning/image/L2_5.png)  
 ![](https://github.com/zhukuixi/AshenOne/blob/master/PaddleDeepLearning/image/L2_6.png)  
-
+[孤微分](https://baike.baidu.com/item/%E5%BC%A7%E5%BE%AE%E5%88%86)
 
 ## 线性代数
 
