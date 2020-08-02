@@ -1,5 +1,8 @@
 ## Paddle深度学习之必备数学知识
 
+###
+[一个不错的DeepLearning with pytorch中文Tutorial](https://wizardforcel.gitbooks.io/learn-dl-with-pytorch-liaoxingyu/content/)
+
 ## 高等数学
 ![](https://github.com/zhukuixi/AshenOne/blob/master/PaddleDeepLearning/image/L2_1.png) 
 一元函数可微与可导是等价的。而对于多元函数，偏导数即使都存在，该函数也不一定可微。因此，对于多元函数，偏导数存在且偏导数连续是函数可微的充分条件。
