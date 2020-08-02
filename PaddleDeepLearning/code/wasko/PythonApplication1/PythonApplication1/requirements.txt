@@ -119,7 +119,7 @@ spyder==3.3.4
 spyder-kernels==0.4.4
 statsmodels==0.9.0
 tensorboard==1.12.0
-tensorflow==1.2.1
+tensorflow==1.15.2
 tensorflow-gpu==1.1.0
 termcolor==1.1.0
 terminado==0.8.2
