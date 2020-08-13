@@ -63,7 +63,7 @@ cost = fluid.layers.square_error_cost(input=net, label=y)
 avg_cost = fluid.layers.mean(cost)
 
 
-# 复制一个主程序，方便之后使用
+# 复制一个主程序，方便之后使用(for prediction)
 test_program = fluid.default_main_program().clone(for_test=True)
 
 # 定义优化方法
