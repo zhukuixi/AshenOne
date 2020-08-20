@@ -1,6 +1,6 @@
 # Advanced Multilayer Perceptrons and Keras  
 
-### Save Your Models For Later With Serialization
+## Save Your Models For Later With Serialization
 * Save network weights in HDF5 file          
 	* model.save\_weights('xxx.h5')
 	*  model.load\_weights('xxx.h5'))
@@ -41,9 +41,10 @@
 	# load model
 	model = load_model('model.h5')
 
-### Keep The Best Models During Training With Checkpointing (Using ModelCheckpoint())
+## Keep The Best Models During Training With Checkpointing (Using ModelCheckpoint())
 * CheckPoint only save model weight.It does not save model structure.
-#### Checkpoint any improvement on validation data	
+* 使用了ModelCheckpoint与modle.fit中的callbacks
+### Checkpoint any improvement on validation data	
 * If filepath is set as the same name, you are only saving the best model instead.
 #	
 	# create model
