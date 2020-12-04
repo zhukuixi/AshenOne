@@ -8,7 +8,7 @@
 2. 跟谁学   （基本面上看要继续跌，技术面上看已经无法跌）  
 	   之前基本面被华尔街做空，从35跌到27，刘哥也一起跟随做空，小盈利.抵达27时，刘哥从技术面分析，判定无法再跌，于是停止做空，果然此时股票反弹后创造历史新高。
 	
-![](https://github.com/zhukuixi/RainyNight/blob/master/stock/img/1_1.png) 
+![](https://github.com/zhukuixi/RainyNight/blob/master/stock/img/1-1.png) 
 
 **小知识**：SPY500平均市盈率是22  
 **总结**：技术为主，基本面次之。
