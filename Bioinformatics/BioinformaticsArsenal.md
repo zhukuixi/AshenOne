@@ -21,3 +21,7 @@
 ***
 ### [GSEA](https://www.gsea-msigdb.org/gsea/doc/GSEAUserGuideTEXT.htm#_GSEAPreranked_Page)
 [GSEA paper](https://www.pnas.org/content/pnas/102/43/15545.full.pdf)
+
+***
+###[maftools (R package)](https://www.bioconductor.org/packages/devel/bioc/vignettes/maftools/inst/doc/maftools.html)  
+[**paper**](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6211645/pdf/1747.pdf)
