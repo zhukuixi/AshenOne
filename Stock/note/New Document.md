@@ -28,3 +28,7 @@
 2.盘中分析  
 3.行情下跌如何赚钱  
 
+
+###[第137期Clf期权Riot股票交易分享 Jan 3,2021](https://www.youtube.com/watch?v=CjoFABD4STs)
+
+(https://github.com/zhukuixi/RainyNight/blob/master/Stock/img/137-1.png) 
