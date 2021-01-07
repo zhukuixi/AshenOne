@@ -28,3 +28,20 @@
 2.盘中分析  
 3.行情下跌如何赚钱  
 
+
+###[第137期Clf期权Riot股票交易分享 Jan 3,2021](https://www.youtube.com/watch?v=CjoFABD4STs)  
+**主题**：基本面（新闻听说铁矿要火）+技术图形（收盘价突破盘整区间）= easy money  
+**实例**：  
+1. Clf的买call时机
+![](https://github.com/zhukuixi/RainyNight/blob/master/Stock/img/137-1.png) 
+
+2. Riot的正股波段操作（三次买入，三次卖出）
+- 11.17号因为**突破盘整大红线**买入  
+- 11.20号因为看见**k线组合**觉得不强势，于是卖出（实际上之后觉得卖错了）  
+- 11.23号客服恐惧心理，补正错误，再度买入  
+- 11.24～25觉得有休息迹象，卖出一些。
+- 11.30号一根**阳线突破创出新高**，随即买入。对比同期比特币的趋势，发现11月30号在前一个交易日大跌的情况下迅猛回涨，因此判定比特币气势如宏，为自己11月30号买入的行动增添砝码。
+
+![](https://github.com/zhukuixi/RainyNight/blob/master/Stock/img/137-2.png) 
+
+![](https://github.com/zhukuixi/RainyNight/blob/master/Stock/img/137-3.png) 
