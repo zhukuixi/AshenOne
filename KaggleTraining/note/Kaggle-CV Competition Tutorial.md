@@ -28,7 +28,7 @@
             训练集3422张，测试集10张 （A榜）  
          -数据样本分析：  
 			  训练集样本bbox分布的barplot(呈现正态分布)
-![](https://github.com/zhukuixi/AshenOne/blob/master/KaggleTraining/Image/1.png)
+![](https://github.com/zhukuixi/AshenOne/blob/master/KaggleTraining/image/1.png)
   
 	3. Baseline思路介绍  
 	     -
