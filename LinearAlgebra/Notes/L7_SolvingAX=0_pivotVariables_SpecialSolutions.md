@@ -1,7 +1,7 @@
 # Lecture 7. Solving Ax = 0: pivot variables, special solutions
 * 获取矩阵**A**的nullspace:   
 > Step 1:获取**A**x=0的特解   
-> Step 2:**A**的nullsapce由这些特解的自由线性组合支撑起来.    
+> Step 2:**A**的nullspace由这些特解的自由线性组合支撑起来.    
 
 * Pivot variables and free variables
 * Special Solutions  
