@@ -1,0 +1,60 @@
+#!/bin/bash
+
+### Specify a name for the job
+#PBS -N STAR_gen
+
+### Specify email address to use for notification.
+#PBS -M bmlau@email.arizona.edu
+
+### Request email when job ends
+#PBS -m ea
+
+# Your job will use 1 node, 12 cores, and 72gb of memory total.
+#PBS -q standard
+#PBS -l select=1:ncpus=28:mem=128gb:pcmem=6gb
+
+### Specify the group name
+#PBS -W group_list=mfh
+
+### Used if job requires partial node only
+#PBS -l place=pack:shared
+
+### CPUtime required in hhh:mm:ss. The maximum is 720:00:00
+### Leading 0's can be omitted e.g 48:0:0 sets 48 hours
+#PBS -l cput=280:00:00
+
+### Walltime is created by cputime divided by total cores.
+### This field can be overwritten by a longer time
+#PBS -l walltime=10:00:00
+
+### Define path for stdout and stderr
+#PBS -j oe
+
+## Move to *current* directory
+cd $PBS_O_WORKDIR
+
+## Load module
+module load star/2/2.5.2b
+
+### Set log file name
+LOGFILE=$PBS_O_WORKDIR/./$PBS_JOBID.star.OU
+
+### Profile job
+echo Running on host `hostname` > $LOGFILE
+echo Time is `date` >> $LOGFILE
+echo Directory is `pwd` >> $LOGFILE
+echo >> $LOGFILE
+
+### Run job
+STAR \
+--runThreadN 12 \
+--runMode genomeGenerate \
+--genomeDir /rsgrps/ruichang/bmlau/Gencode_v25/STAR_Index_Gencode \
+--genomeFastaFiles /rsgrps/ruichang/bmlau/Gencode_v25/GRCh38.primary_assembly.genome.fa \
+--sjdbGTFfile /rsgrps/ruichang/bmlau/Gencode_v25/gencode.v25.annotation.gtf \
+--limitGenomeGenerateRAM=160150437248 \
+
+>> $LOGFILE 2>&1
+
+### Get time stamp again
+date >> $LOGFILE
