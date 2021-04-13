@@ -1,0 +1,67 @@
+#!/bin/bash
+
+### Script to run STAR aligner on RNA-Seq Fastq data.
+### To be ran from Raw_Data/Fastq
+
+### Specify a name for the job
+#PBS -N STAR_align
+
+### Specify email address to use for notification.
+#PBS -M bmlau@email.arizona.edu
+
+### Request email when job ends
+#PBS -m ea
+
+# Your job will use 1 node, 12 cores, and 72gb of memory total.
+#PBS -q standard
+#PBS -l select=1:ncpus=12:mem=72gb:pcmem=6gb
+
+### Specify the group name
+#PBS -W group_list=mfh
+
+### Used if job requires partial node only
+#PBS -l place=pack:shared
+
+### CPUtime required in hhh:mm:ss. The maximum is 720:00:00
+### Leading 0's can be omitted e.g 48:0:0 sets 48 hours
+#PBS -l cput=120:00:00
+
+### Walltime is created by cputime divided by total cores.
+### This field can be overwritten by a longer time
+#PBS -l walltime=20:00:00
+
+### Define path for stdout and stderr
+#PBS -j oe
+
+## Move to *current* directory
+cd $PBS_O_WORKDIR
+
+## Load module
+module load star/2/2.5.2b
+
+### Set log file name
+LOGFILE=$PBS_O_WORKDIR/./$PBS_JOBID.star.OU
+
+### Profile job
+echo Running on host `hostname` > $LOGFILE
+echo Time is `date` >> $LOGFILE
+echo Directory is `pwd` >> $LOGFILE
+echo >> $LOGFILE
+
+OUTPUT_DIR=STAR_Alignments_Gencode
+mkdir -p ${OUTPUT_DIR}
+
+STAR --genomeDir /rsgrps/ruichang/bmlau/Gencode_v25/STAR_Index_Gencode \
+ --readFilesIn $(printf "%s," *R1*.fastq.gz | sed 's/,$/\n/') $(printf "%s," *R2*.fastq.gz | sed 's/,$/\n/') \
+ --readFilesCommand zcat \
+ --runThreadN 12 \
+ --outFileNamePrefix ${OUTPUT_DIR}/ \
+ --outSAMtype BAM Unsorted \
+ --chimOutType SeparateSAMold \
+ --quantMode TranscriptomeSAM \
+ --twopassMode Basic
+
+>> $LOGFILE 2>&1
+
+### Get time stamp again
+date >> $LOGFILE

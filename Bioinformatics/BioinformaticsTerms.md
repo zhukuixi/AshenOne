@@ -16,3 +16,5 @@
 
 [Survival Analysis](http://www.sthda.com/english/wiki/survival-analysis-basics#objectives)  
 [Cox proportional-hazards model](http://www.sthda.com/english/wiki/cox-proportional-hazards-model)
+
+[FPKM RPKM TPM](https://www.cnblogs.com/Belter/p/13205635.html)
