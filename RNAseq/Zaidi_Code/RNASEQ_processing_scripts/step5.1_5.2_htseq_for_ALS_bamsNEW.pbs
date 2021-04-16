@@ -1,0 +1,75 @@
+#!/bin/bash
+
+### Script to run htseq_count after running RNA-Seq alignments using Bowtie2
+
+### Job name
+###PBS -N htseq_count_zaidi
+
+### Specify email address to use for notification.
+###PBS -M syedzaidi@email.arizona.edu
+
+### Request email when job ends
+###PBS -m ea
+
+### Specify the PI group found with va command
+#PBS -W group_list=ruichang
+
+### Set the queue to submit this job.
+#PBS -q standard
+
+### Set the number of nodes and cpus that will be used.
+#PBS -l select=1:ncpus=8:mem=48gb:pcmem=6gb
+#PBS -l place=pack:shared
+
+
+
+
+### Specify up to a maximum of 1600 hours total cpu time
+#PBS -l cput=606:40:00
+
+### Specify up to a maximum of 240 hours walltime for the job
+#PBS -l walltime=10:50:00
+
+### Define path for stdout and stderr
+#PBS -o .
+#PBS -j oe
+
+
+### Move to *current* directory
+cd $PBS_O_WORKDIR
+
+module load samtools
+module load python/2
+
+### Set log file name
+LOGFILE=./$PBS_JOBID.htseq_count.OU
+
+### Profile job
+echo Running on host `hostname` > $LOGFILE
+echo Time is `date` >> $LOGFILE
+echo Directory is `pwd` >> $LOGFILE
+echo >> $LOGFILE
+
+TODAY=`date +%d%b%Y`
+OUTPUT_DIR=${PBS_O_WORKDIR}/htseq_count.${TODAY}
+mkdir -p ${OUTPUT_DIR}
+
+### Run job
+cd ${PBS_O_WORKDIR}
+
+samtools sort -n $(printf *bam) > $(printf *bam).readSort.bam
+
+mkdir -p ${OUTPUT_DIR}
+htseq-count \
+-f bam \
+-m union \
+-s no \
+-i gene_id \
+*.readSort.bam \
+/rsgrps/ruichang/bmlau/Gencode_v25/gencode.v25.GRCh38.genes.gtf \
+> ${OUTPUT_DIR}/counts.txt 2>> $LOGFILE
+
+### Get time stamp again
+date >> $LOGFILE
+
+
