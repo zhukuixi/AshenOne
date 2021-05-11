@@ -38,3 +38,4 @@ Why the test statistics is valid (following a Normal distribution)? Because Norm
 ![](https://github.com/zhukuixi/RainyNight/blob/master/Probability_Statistics/img/review_7.png)  
   
 ![](https://github.com/zhukuixi/RainyNight/blob/master/Probability_Statistics/img/review_6.png)
+
