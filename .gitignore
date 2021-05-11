@@ -339,3 +339,5 @@ ASALocalRun/
 # BeatPulse healthcheck temp database
 healthchecksdb
 *.gz
+scRNAseq/scRNA.rds
+scRNAseq/scRNA.rds
