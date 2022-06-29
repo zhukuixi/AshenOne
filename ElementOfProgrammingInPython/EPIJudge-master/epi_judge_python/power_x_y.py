@@ -3,19 +3,18 @@ from sys import exit
 
 
 def power(x: float, y: int) -> float:
-    # TODO - you fill in here.
     if y<0:
-        x = 1/x
-        y = -y
-    power = y
-    result = 1
-    while power:
-        if power&1:
-            result *= x
-        power >>= 1
-        x *= x
-        
-    return result
+        return 1/power(x,-y)
+    # TODO - you fill in here.
+    tmp_x = 1
+    ans = 1
+    while y:
+        tmp_x = x if tmp_x==1 else tmp_x**2
+        if y&1:
+            ans *= tmp_x
+        y>>=1
+    return ans
+  
 
 
 if __name__ == '__main__':

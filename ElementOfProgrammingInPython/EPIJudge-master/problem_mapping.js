@@ -38,7 +38,7 @@ problem_mapping = {
                 "total": 10001
             },
             "Python: swap_bits.py": {
-                "passed": 0,
+                "passed": 10001,
                 "total": 10001
             }
         },
@@ -164,7 +164,7 @@ problem_mapping = {
                 "total": 10000
             },
             "Python: rectangle_intersection.py": {
-                "passed": 0,
+                "passed": 10000,
                 "total": 10000
             }
         }
@@ -180,7 +180,7 @@ problem_mapping = {
                 "total": 1001
             },
             "Python: even_odd_array.py": {
-                "passed": 0,
+                "passed": 1001,
                 "total": 1001
             }
         },
@@ -194,7 +194,7 @@ problem_mapping = {
                 "total": 204
             },
             "Python: dutch_national_flag.py": {
-                "passed": 0,
+                "passed": 204,
                 "total": 204
             }
         },
@@ -208,7 +208,7 @@ problem_mapping = {
                 "total": 505
             },
             "Python: int_as_array_increment.py": {
-                "passed": 0,
+                "passed": 505,
                 "total": 505
             }
         },
@@ -222,7 +222,7 @@ problem_mapping = {
                 "total": 1000
             },
             "Python: int_as_array_multiply.py": {
-                "passed": 0,
+                "passed": 1000,
                 "total": 1000
             }
         },
@@ -236,7 +236,7 @@ problem_mapping = {
                 "total": 2004
             },
             "Python: advance_by_offsets.py": {
-                "passed": 0,
+                "passed": 2004,
                 "total": 2004
             }
         },
@@ -250,7 +250,7 @@ problem_mapping = {
                 "total": 2003
             },
             "Python: sorted_array_remove_dups.py": {
-                "passed": 0,
+                "passed": 2003,
                 "total": 2003
             }
         },
@@ -278,7 +278,7 @@ problem_mapping = {
                 "total": 402
             },
             "Python: buy_and_sell_stock_twice.py": {
-                "passed": 0,
+                "passed": 402,
                 "total": 402
             }
         },

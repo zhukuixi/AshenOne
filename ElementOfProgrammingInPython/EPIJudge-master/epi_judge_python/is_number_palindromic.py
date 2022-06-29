@@ -7,36 +7,23 @@ def is_palindrome_number(x: int) -> bool:
     # TODO - you fill in here.
     if x<0:
         return False
-    
-    power = 0
-    while 10**power<=x:
-        power+=1
-    power -= 1
-    while power>0:
+    if x==0:
+        return  True
+    N = math.floor(math.log(x,10))+1    
+    for i in range(N//2):
         LSB = x%10
-        MSB = x//(10**power)
-        if LSB!=MSB:
+        MSB = x//10**(N-1-i*2)
+        if LSB != MSB:
             return False
-        x -= MSB*(10**power)
-        x = x//10
-        power -= 2           
+        x -= MSB*10**(N-1-i*2)+LSB
+        x /= 10
+        
     return True
+        
+        
 
-def is_palindrome_number(x: int) -> bool:
-    # TODO - you fill in here.
-    if x<=0:
-        return x==0
-    
-    n_digits = math.floor(math.log10(x))+1
-    mask = 10**(n_digits-1)
-    for i in range(n_digits//2):
-        if x%10 != x//mask:
-            return False
-        x = x%mask
-        x = x//10
-        mask //= 100
-    return True
-    
+
+
    
 
 if __name__ == '__main__':

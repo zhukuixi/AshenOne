@@ -17,19 +17,18 @@ from sys import exit
         
 
 def multiply(x: int, y: int) -> int:
-    # TODO - you fill in here.
-    def add(a,b)        :
-        return a if b==0 else add(a^b,(a&b)<<1)
+    def add(x,y):
+        return x if y==0 else add(x^y,(x&y)<<1)
+    ans = 0     
+    while y:       
+        if y&1:
+            ans = add(ans,x)           
+        x <<= 1
+        y >>= 1
+    return ans
     
-    result = 0     
-    while x:
-        if x&1:
-            result = add(result,y)
-        y <<= 1
-        x >>= 1
-    return result        
-            
         
+            
 
 
 if __name__ == '__main__':

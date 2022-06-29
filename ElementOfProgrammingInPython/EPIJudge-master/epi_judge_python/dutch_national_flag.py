@@ -1,5 +1,6 @@
 import functools
 from typing import List
+from sys import exit
 
 from test_framework import generic_test
 from test_framework.test_failure import TestFailure
@@ -10,8 +11,29 @@ RED, WHITE, BLUE = range(3)
 
 def dutch_flag_partition(pivot_index: int, A: List[int]) -> None:
     # TODO - you fill in here.
-    return
+    next_lessInd = 0 
+    next_equalInd = 0
+    next_greaterInd = len(A)-1
+    pivot = A[pivot_index]
+    while next_equalInd <= next_greaterInd:
+        if A[next_equalInd]<pivot:
+            A[next_equalInd], A[next_lessInd] = A[next_lessInd],A[next_equalInd]
+            next_lessInd += 1
+            next_equalInd += 1
+        elif A[next_equalInd]==pivot:
+            next_equalInd += 1            
+        elif A[next_equalInd]>pivot:
+            A[next_equalInd], A[next_greaterInd] = A[next_greaterInd],A[next_equalInd]
+            next_greaterInd -= 1
+     
 
+def dutch_flag_partition_var1(pivot_index: int, A: List[int]) -> None:           
+    next_part1,next_part2=0,0
+    next_part3 = len(A)-1
+    while next_part1<=next_part3:        
+        if A[next_part2]
+    
+        
 
 @enable_executor_hook
 def dutch_flag_partition_wrapper(executor, A, pivot_idx):

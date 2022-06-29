@@ -3,12 +3,20 @@ from typing import List
 
 from test_framework import generic_test
 from test_framework.test_utils import enable_executor_hook
-
+from sys import exit
 
 # Returns the number of valid entries after deletion.
 def delete_duplicates(A: List[int]) -> int:
     # TODO - you fill in here.
-    return 0
+    old = None
+    nextUniqueInd = 0
+    for i in range(len(A)):
+        if A[i]!=old:
+            old=A[i]
+            A[nextUniqueInd] = A[i]
+            nextUniqueInd += 1
+        
+    return nextUniqueInd
 
 
 @enable_executor_hook

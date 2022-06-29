@@ -1,7 +1,7 @@
 import collections
 import functools
 from typing import List
-
+from sys import exit
 from test_framework import generic_test
 from test_framework.test_failure import TestFailure
 from test_framework.test_utils import enable_executor_hook
@@ -9,6 +9,16 @@ from test_framework.test_utils import enable_executor_hook
 
 def even_odd(A: List[int]) -> None:
     # TODO - you fill in here.
+    next_even , next_odd = 0,len(A)-1
+    while next_even <= next_odd:
+        if A[next_even]%2==0:
+            next_even += 1
+        else:
+            A[next_odd],A[next_even] =  A[next_even],A[next_odd]
+            next_odd -= 1
+        
+    
+    
     return
 
 
@@ -34,3 +44,6 @@ if __name__ == '__main__':
     exit(
         generic_test.generic_test_main('even_odd_array.py',
                                        'even_odd_array.tsv', even_odd_wrapper))
+
+
+        

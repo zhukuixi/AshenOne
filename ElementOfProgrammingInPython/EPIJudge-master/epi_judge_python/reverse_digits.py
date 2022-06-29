@@ -22,15 +22,16 @@ from sys import exit
         
         
 def reverse(x: int) -> int:
-   # TODO - you fill in here.
-   result, x_remaining = 0,abs(x)
-   while x_remaining:        
-       result = result*10 + x_remaining%10
-       x_remaining = x_remaining//10
-   return result if x>0 else -result
-
-       
-   
+    if x<0:
+        return -1*reverse(-x)
+    
+    ans = 0    
+    while x:
+        lastDigit = x%10
+        x //= 10
+        ans = ans*10 + lastDigit
+    return ans
+  
                
         
         

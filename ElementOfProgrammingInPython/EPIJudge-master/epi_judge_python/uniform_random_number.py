@@ -14,39 +14,26 @@ def zero_one_random():
 
 def uniform_random(lower_bound: int, upper_bound: int) -> int:
     # TODO - you fill in here.
-    if lower_bound == upper_bound:
-        return lower_bound
-    
-    distance = upper_bound - lower_bound + 1
-    times = math.ceil(math.log2(distance))
-    tail = lower_bound + 2**times - 1
-    ans = upper_bound+1
-    
-    while ans>upper_bound:
-        if zero_one_random() == 1:
-            ans = uniform_random(math.ceil((lower_bound+tail)/2),tail)
-        else:
-            ans = uniform_random(lower_bound,math.floor((lower_bound+tail)/2))       
-    
-    return ans
-
-def uniform_random(lower_bound: int, upper_bound: int) -> int:
-    # TODO - you fill in here.    
-    distance = upper_bound - lower_bound + 1
-    n_digits = math.ceil(math.log2(distance)) + 1
-   
-    
-    while True:
-        ans = lower_bound
-        for i in range(n_digits-1,-1,-1):
+    randomRange = upper_bound-lower_bound
+    N = math.floor(math.log(randomRange,2))+1
+    flag = True
+    while flag:
+        ans = 0
+        for i in range(N,-1,-1):
             digit = zero_one_random()
-            ans = ans + (digit << i)
-            if ans>upper_bound:
+            ans |= digit<<i
+            if ans>randomRange:
                 break
-            elif i==0:
-                return ans
             
+        if ans<=randomRange:
+            return lower_bound + ans
+        
+            
+        
     
+   
+
+
     
     
 
