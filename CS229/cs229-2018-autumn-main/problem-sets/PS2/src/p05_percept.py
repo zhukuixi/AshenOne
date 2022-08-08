@@ -16,6 +16,7 @@ def initial_state():
     """
 
     # *** START CODE HERE ***
+    return []
     # *** END CODE HERE ***
 
 
@@ -33,6 +34,10 @@ def predict(state, kernel, x_i):
         Returns the prediction (i.e 0 or 1)
     """
     # *** START CODE HERE ***
+    ans = 0
+    for x,beta in state:
+        ans += beta*kernel(x,x_i)                
+    return sign(ans)
     # *** END CODE HERE ***
 
 
@@ -47,6 +52,11 @@ def update_state(state, kernel, learning_rate, x_i, y_i):
         y_i: A 0 or 1 indicating the label for a single instance
     """
     # *** START CODE HERE ***
+    
+    beta= (y_i-predict(state,kernel,x_i))*learning_rate
+    state.append((x_i,beta))
+    
+   
     # *** END CODE HERE ***
 
 
@@ -97,11 +107,12 @@ def train_perceptron(kernel_name, kernel, learning_rate):
     train_x, train_y = util.load_csv('../data/ds5_train.csv')
 
     state = initial_state()
+ 
 
     for x_i, y_i in zip(train_x, train_y):
         update_state(state, kernel, learning_rate, x_i, y_i)
 
-    test_x, test_y = util.load_csv('../data/ds5_train.csv')
+    test_x, test_y = util.load_csv('../data/ds5_test.csv')
 
     plt.figure(figsize=(12, 8))
     util.plot_contour(lambda a: predict(state, kernel, a))
