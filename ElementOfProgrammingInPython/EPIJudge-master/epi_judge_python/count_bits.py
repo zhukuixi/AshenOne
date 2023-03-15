@@ -1,9 +1,15 @@
 from test_framework import generic_test
-
+from sys import exit
 
 def count_bits(x: int) -> int:
-    # TODO - you fill in here.
-    return 0
+    n = 0
+    while x:
+        if x&1:
+            n += 1
+        x>>=1
+        
+        
+    return n
 
 
 if __name__ == '__main__':
