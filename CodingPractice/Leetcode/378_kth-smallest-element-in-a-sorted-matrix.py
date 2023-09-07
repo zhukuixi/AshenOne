@@ -4,7 +4,6 @@ class Solution:
         maxRow = min(n,k)
         minHeap = [ (row[0],i)  for i,row in enumerate(matrix[:maxRow]) ]
         heapq.heapify(minHeap)
-
         index_record = [0]*maxRow
         result = None
         for i in range(k):
