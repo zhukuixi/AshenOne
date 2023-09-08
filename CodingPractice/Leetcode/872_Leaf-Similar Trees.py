@@ -6,18 +6,32 @@
 #         self.right = right
 class Solution:
     def leafSimilar(self, root1: Optional[TreeNode], root2: Optional[TreeNode]) -> bool:
-        return self.getBottomLeaf(root1)==self.getBottomLeaf(root2)
+        def readBottom(root):        
+            if not root:
+                return []   
+            if root.left == root.right == None:
+                return [root.val]            
+            return readBottom(root.left) +readBottom(root.right)
+
+        def readBottom1(root):
+            stack = [root]
+            result = []
+            while stack:
+                node = stack.pop()
+                if node.left==None and node.right==None:
+                    result.append(node.val)
+                if node.left:
+                    stack.append(node.left)
+                if node.right:
+                    stack.append(node.right)
+            return result
+
+        l1 = readBottom1(root1)
+        l2 = readBottom1(root2)
+       
         
-    
-    def getBottomLeaf(self,root):
-        stack = [root]
-        result = []
-        while stack:
-            node = stack.pop()     
-            if node.right==None and node.left==None:
-                result.append(node.val)                
-            if node.right:
-                stack.append(node.right)
-            if node.left:
-                stack.append(node.left)
-        return result
+        return l1==l2
+        
+
+           
+        
